@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width:100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col{
+    float:left;
+}
+
+
+/*header*/
+header {
+  background: black;
+}
+
+header h2{
+  color: white;
+  text-transform: uppercase;
+}
+
+header nav.col{
+    float:right;
+}
+
+header nav.col li {
+    display: inline-block;
+}
+
+header nav.col li a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+}
+
+
+/* section content */
+
+
+
+/*aside*/
+
+
+
+
+/* footer */
